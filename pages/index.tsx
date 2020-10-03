@@ -24,7 +24,7 @@ export default function Home() {
       </main>
 
       <footer className="bg-grey-500">
-        Mer innehåll...
+        Bilder från spelningar
       </footer>
     </div>
   )
