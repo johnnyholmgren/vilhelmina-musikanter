@@ -10,14 +10,13 @@ export const Post = ({ post }) => {
   //   <div meta={meta} />
 
   return (
-
     <>
       <article>
         <h2 className="text-lg">{meta.title}</h2>
         <p className="text-purple-500">{meta.description}</p>
         <p className="text-gray-600">{meta.date}</p>
         <Link href={'/posts' + link}>
-          <a className="text-purple-800">Read more &rarr;</a>
+          <a className="text-purple-800">Läs mer &rarr;</a>
         </Link>
       </article>
       <style jsx>
