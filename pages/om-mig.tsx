@@ -1,8 +1,6 @@
-import {TwoColumns} from "../src/components/Content/twoColumns";
-
+import React from 'react'
+import { TwoColumns } from '../src/components/Content/twoColumns'
 
 export default function OmMig() {
-    return (
-        <TwoColumns />
-    )
+  return <TwoColumns />
 }

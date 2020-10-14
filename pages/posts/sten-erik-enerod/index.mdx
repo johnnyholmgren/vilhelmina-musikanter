@@ -1,16 +1,22 @@
-# Sten Erik Eneröd
+import BlogPost from '../../../src/components/Layout'
 
 export const meta = {
   title: 'Sten Erik Eneröd',
   description: 'En omtyckt speleman som började sin bana som dragspelare i födelsebyn Alphyddan på 1950 -talet',
   date: '2020-05-02',
-  readTime: 2
+  readTime: 2,
 }
 
+export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>;
+
+
+# Sten Erik Eneröd
 
 En av Vilhelminas profiler är onekligen Sten Erik Eneröd. Omtyckt speleman som började sin bana som dragspelare i födelsebyn Alphyddan på 1950 -talet. Jag spelade själv en kort stund med Eneröd 1965-66.
 
 
 Här är något av Eneröds framträdande på [YouTube](https://www.youtube.com/watch?v=rpqHAW-QBZU&feature=share)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rpqHAW-QBZU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="youtube-video">
+<iframe src="https://www.youtube.com/embed/rpqHAW-QBZU" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+</div>
