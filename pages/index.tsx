@@ -52,10 +52,10 @@ function Hero() {
           <span className="text-indigo-600"> i Vilhelmina</span>
         </h2>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Om du vill läsa om och musikanter som har anknytning till Vilhelmina har du hittat rätt
-          plats. Mitt namn är Johnny Holmgren och jag har påbörjat arbetet med att dokumentera
-          Vilhmusikaliska historia. Det kommer att byggas upp med mer information allt eftersom.
-          Idéer och förslag emottages tacksamt.
+          Om du vill läsa om musikanter som har anknytning till Vilhelmina har du hittat rätt plats.
+          Mitt namn är Johnny Holmgren och jag har påbörjat arbetet med att dokumentera Vilhelminas
+          musikaliska historia. Det kommer att byggas upp med mer information allt eftersom. Idéer
+          och förslag emottages tacksamt.
         </p>
       </div>
     </div>
