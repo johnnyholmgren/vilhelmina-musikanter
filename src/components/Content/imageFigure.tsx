@@ -1,10 +1,9 @@
 import * as React from 'react'
-import Image from 'next/image'
 
 interface ImageFigureProps {
   imageSrc: string
-  imageWidth: string
-  imageHeight: string
+  imageWidth: number
+  imageHeight: number
   imageAlt?: string
   caption: string
 }
@@ -22,11 +21,12 @@ export default function ImageFigure({
   return (
     <figure>
       <div className="relative pb-7/12 lg:pb-0">
-        <Image
+        <img
           src={imageSrc}
           alt={imageAlt}
           width={imageWidth}
           height={imageHeight}
+          loading="lazy"
           className="rounded-lg shadow-lg object-cover object-center absolute inset-0 w-full h-full lg:static lg:h-auto"
         />
       </div>
