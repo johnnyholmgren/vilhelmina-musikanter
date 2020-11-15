@@ -4,12 +4,3 @@
 
 @tailwind components;
 @tailwind utilities;
-
-.youtube-video {
-    @apply .relative .overflow-hidden .w-full .h-auto;
-    padding-bottom: percentage(9/16);
-
-    iframe {
-        @apply .absolute .top-0 .left-0 .w-full .h-full;
-    }
-}

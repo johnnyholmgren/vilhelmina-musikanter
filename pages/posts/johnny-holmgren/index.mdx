@@ -18,8 +18,14 @@ export default ({ children }) => <BlogPost meta={meta}>{children}</BlogPost>;
 
 YouTube [Wilderness Road](https://youtu.be/kLzQQlB0vt09)
 
-<div className="youtube-video">
-<iframe src="https://www.youtube.com/embed/kLzQQlB0vt0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+<div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+<iframe
+    className="absolute top-0 left-0 w-full h-full"
+    src="https://www.youtube.com/embed/kLzQQlB0vt0"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+></iframe>
 </div>
 
 
