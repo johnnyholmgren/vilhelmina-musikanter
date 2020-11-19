@@ -22,6 +22,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <meta name="Description" content="Din guide till musikanter i Vilhelmina." />
         <link
           href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
           rel="stylesheet"
