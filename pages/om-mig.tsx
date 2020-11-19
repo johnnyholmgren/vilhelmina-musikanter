@@ -14,8 +14,8 @@ mig med eget musicerande, men även stort intresse att lyssna på andras
 musikutövande. Det har gjort att många inspelningar av eget producerat och även
 andra musikanters verk har samlats under åren."
       imageSrc="/foton/johnny_holmgren_foto_r_thellbro-500x505.jpg"
-      imageWidth="500"
-      imageHeight="505"
+      imageWidth={500}
+      imageHeight={505}
       imageCaption="Foto av Ronny Tellbro"
     />
   )

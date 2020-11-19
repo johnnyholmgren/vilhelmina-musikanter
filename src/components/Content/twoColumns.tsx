@@ -13,8 +13,8 @@ interface Props {
   preText: string
   text: string
   imageSrc: string
-  imageWidth: string
-  imageHeight: string
+  imageWidth: number
+  imageHeight: number
   imageCaption: string
 }
 
